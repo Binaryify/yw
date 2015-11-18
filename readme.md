@@ -142,14 +142,24 @@ search.php
 # 滑动到底部加载
 加载对应的load方法,同时传入page=1,2,3,4,5...
 # 图片上传与加载
-图片上传是把图片转化成base64码,每次添加图片都会在一个数组里push进base64码然后传到后台
+图片上传是把图片转化成base64码,每次添加图片都会在一个数组里push进base64码然后传到后台,后台需要解析这个数组,然后保存为图片
 # 会员中心
 登录需要token无法使用cookie
-1. 我的二手房
+
+## 我的二手房
+发送用户id
 mySecondary.php
 点击修改
 changeReleaseSecondary.php
-2. 我的租房
+## 我的租房
+发送用户id
 myRentalHousing.php
 点击修改
 changeRentalHousing.php
+
+## 我的收藏
+collect.php
+发送用户id
+## 站内信
+mail.php
+发送用户id
