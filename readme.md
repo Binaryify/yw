@@ -107,7 +107,33 @@ loadfirsthouse和loadsecondhouse以及loadrent方法
 ```html
 <a href="#/tab/firstHandHouseDetail" onclick="loadfirstHouseDetail('(%id%)')">
 ```
+#首页
+1. 新房 :indexfirstHouse.php
+2. 二手房 :indexsecondHandHouse.php
+3. 租房 :indexrent.php
+4. 新闻 :indexnew.php
+
+# 新房
+firstHandHouse.php
+# 新房详情
+firstHandHousedetail.php
+# 二手房
+secondHandHouse.php
+# 二手房详情
+secondHandHouseDetail.php
+# 看房团
+watchHouse.php
+# 看房团详情
+watchHouseDetail.php
+# 小区
+community.php
+# 新闻
+news.php
+# 地图
+map.php
+
 # 搜索
+search.php
 当点击搜索的时候也是触发对应的load方法,参数为search=xxx
 # 排序
 当点击排序的时候会触发对应的load方法,参数为order="默认","价格","开盘","人气",up=false/true
@@ -117,3 +143,13 @@ loadfirsthouse和loadsecondhouse以及loadrent方法
 加载对应的load方法,同时传入page=1,2,3,4,5...
 # 图片上传与加载
 图片上传是把图片转化成base64码,每次添加图片都会在一个数组里push进base64码然后传到后台
+# 会员中心
+登录需要token无法使用cookie
+1. 我的二手房
+mySecondary.php
+点击修改
+changeReleaseSecondary.php
+2. 我的租房
+myRentalHousing.php
+点击修改
+changeRentalHousing.php
