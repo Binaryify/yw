@@ -163,3 +163,6 @@ collect.php
 ## 站内信
 mail.php
 发送用户id
+
+# 头像上传
+avatar.php
